@@ -1,7 +1,6 @@
 import {useState, useEffect} from 'react';
 import {API_URL} from '../config';
 
-
 import {Preloader} from './Preloader';
 import {GoodsList} from './GoodsList';
 import { Cart } from './Cart';
@@ -98,7 +97,6 @@ function Shop() {
             .then((data) => {
                 data.shop && setGoods(data.shop);
                 setLoading(false);
-                console.log(goods);
             });
     }, []);
 
