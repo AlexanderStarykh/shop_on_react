@@ -1,7 +1,7 @@
 {
   "name": "shop_on_react",
   "version": "0.1.0",
-  "home": "https://alexanderstarykh.github.io/shop_on_react/",
+  "homepage": "https://alexanderstarykh.github.io/shop_on_react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
